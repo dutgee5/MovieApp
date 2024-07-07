@@ -4,10 +4,10 @@ export const fetchTopRatedMovies = async () => {
     method: "GET",
     headers: {
       accept: "application/json",
-      //Authorization:
-       // "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYjdlZTYwNzI1MTFiMmM0MjFmODMxY2E4M2I4MDM2ZCIsIm5iZiI6MTcxOTU2MjIzNy41MTI4LCJzdWIiOiI2NjdlNmNlZTBiMzg2ZTQ2YmUyYTZjYTQiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0._A4hCOez3sMfE_ECzBkD2F98ypvP2oPXa0VtylivvWw",
-       },
-  }; 
+      Authorization:
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzYjdlZTYwNzI1MTFiMmM0MjFmODMxY2E4M2I4MDM2ZCIsIm5iZiI6MTcxOTU2MjIzNy41MTI4LCJzdWIiOiI2NjdlNmNlZTBiMzg2ZTQ2YmUyYTZjYTQiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0._A4hCOez3sMfE_ECzBkD2F98ypvP2oPXa0VtylivvWw",
+    },
+  };
 
   const res = await fetch(url, options);
 
